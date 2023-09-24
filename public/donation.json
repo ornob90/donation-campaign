@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/Health.png",
+    "title": "Health Campaign 1",
+    "category": "Health",
+    "catgBg": "#0052FF",
+    "cardBg": "#0052FF",
+    "textcolor": "#FFFFFF",
+    "description": "Help support medical facilities and provide healthcare to those in need.",
+    "price": 250
+  },
+  {
+    "id": 2,
+    "image": "/assets/Health.png",
+    "title": "Health Campaign 2",
+    "category": "Health",
+    "catgBg": "#0052FF",
+    "cardBg": "#0052FF",
+    "textcolor": "#FFFFFF",
+    "description": "Contribute to the fight against diseases and improve public health.",
+    "price": 270
+  },
+  {
+    "id": 3,
+    "image": "/assets/Health.png",
+    "title": "Health Campaign 3",
+    "category": "Health",
+    "catgBg": "#0052FF",
+    "cardBg": "#0052FF",
+    "textcolor": "#FFFFFF",
+    "description": "Support health clinics and make healthcare accessible to everyone.",
+    "price": 220
+  },
+  {
+    "id": 4,
+    "image": "/assets/Health.png",
+    "title": "Health Campaign 4",
+    "category": "Health",
+    "catgBg": "#0052FF",
+    "cardBg": "#0052FF",
+    "textcolor": "#FFFFFF",
+    "description": "Promote wellness and ensure a healthier future for all.",
+    "price": 290
+  },
+  {
+    "id": 5,
+    "image": "/assets/Clothing.png",
+    "title": "Clothing Drive 1",
+    "category": "Clothing",
+    "catgBg": "#79C23F",
+    "cardBg": "#79C23F",
+    "textcolor": "#FFFFFF",
+    "description": "Provide warm clothing to those in need during cold seasons.",
+    "price": 240
+  },
+  {
+    "id": 6,
+    "image": "/assets/Clothing.png",
+    "title": "Clothing Drive 2",
+    "category": "Clothing",
+    "catgBg": "#79C23F",
+    "cardBg": "#79C23F",
+    "textcolor": "#FFFFFF",
+    "description": "Help disadvantaged individuals by donating clothing items.",
+    "price": 260
+  },
+  {
+    "id": 7,
+    "image": "/assets/Clothing.png",
+    "title": "Clothing Drive 3",
+    "category": "Clothing",
+    "catgBg": "#79C23F",
+    "cardBg": "#79C23F",
+    "textcolor": "#FFFFFF",
+    "description": "Support clothing banks and ensure clothing for those in need.",
+    "price": 210
+  },
+  {
+    "id": 8,
+    "image": "/assets/Clothing.png",
+    "title": "Clothing Drive 4",
+    "category": "Clothing",
+    "catgBg": "#79C23F",
+    "cardBg": "#79C23F",
+    "textcolor": "#FFFFFF",
+    "description": "Promote the dignity of individuals by providing clothing options.",
+    "price": 280
+  },
+  {
+    "id": 9,
+    "image": "/assets/Food.png",
+    "title": "Food Relief 1",
+    "category": "Food",
+    "catgBg": "#F87147",
+    "cardBg": "#F87147",
+    "textcolor": "#FFFFFF",
+    "description": "Help fight hunger by donating food items to vulnerable communities.",
+    "price": 230
+  },
+  {
+    "id": 10,
+    "image": "/assets/Food.png",
+    "title": "Food Relief 2",
+    "category": "Food",
+    "catgBg": "#F87147",
+    "cardBg": "#F87147",
+    "textcolor": "#FFFFFF",
+    "description": "Support food banks and ensure food security for all.",
+    "price": 250
+  },
+  {
+    "id": 11,
+    "image": "/assets/Education.png",
+    "title": "Education Fund 1",
+    "category": "Education",
+    "catgBg": "#FF444A",
+    "cardBg": "#FF444A",
+    "textcolor": "#FFFFFF",
+    "description": "Empower the next generation by supporting educational initiatives.",
+    "price": 270
+  },
+  {
+    "id": 12,
+    "image": "/assets/Education.png",
+    "title": "Education Fund 2",
+    "category": "Education",
+    "catgBg": "#FF444A",
+    "cardBg": "#FF444A",
+    "textcolor": "#FFFFFF",
+    "description": "Promote literacy and access to quality education for all.",
+    "price": 290
+  }
+]
