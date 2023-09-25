@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import CategoryBtn from "../Shared/CategoryBtn";
 
 const DonationCard = () => {
   const navigate = useNavigate();
@@ -10,12 +11,7 @@ const DonationCard = () => {
     >
       <img src="/assets/Health.png" alt="Health Image" />
       <div className="pl-2 py-2">
-        <button
-          type="button"
-          className="bg-[#0052FF]/[.20] text-[#0052FF] font-medium py-1 px-2 text-sm rounded-md"
-        >
-          Health
-        </button>
+        <CategoryBtn color="#0052FF">Health</CategoryBtn>
         <h3 className="text-[#0052FF] font-[600] text-lg ">
           Clean water for children
         </h3>

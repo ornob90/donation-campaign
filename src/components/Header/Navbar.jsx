@@ -18,8 +18,8 @@ const Navbar = () => {
           />
         </div>
         <div className="hidden text-lg md:text-xl  w-3/5 lg:flex justify-end gap-8 items-center">
-          <NavLink>Home</NavLink>
-          <NavLink>Donation</NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/Donations">Donation</NavLink>
           <NavLink>Statistics</NavLink>
         </div>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
 
         {menu && (
           <div
-            className={`absolute top-0 z-[10] transition-right duration-500 ease-in flex flex-col w-full h-full gap-16 bg-gray-200 ${
+            className={`absolute top-0 z-[10] transition-right duration-500 ease-in flex flex-col w-full h-full gap-16 bg-gray-200  ${
               menu ? "right-0" : "-right-[100%]"
             }  `}
           >
@@ -44,8 +44,8 @@ const Navbar = () => {
               className="
          flex flex-col lg:hidden z-[10] justify-center items-center gap-8 text-xl"
             >
-              <NavLink>Home</NavLink>
-              <NavLink>Donation</NavLink>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/Donations">Donation</NavLink>
               <NavLink>Statistics</NavLink>
             </div>
           </div>
