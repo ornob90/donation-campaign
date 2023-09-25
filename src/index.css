@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)), */
+
+@layer {
+  .bg-banner {
+    background: linear-gradient(
+        to right,
+        rgba(245, 245, 245, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/charity-event-information-banner-design-template-bd076c80da3aa99a5818af8670cc9a49_screen.jpg?ts=1656596549");
+    background-size: cover;
+    color: red;
+  }
+}

@@ -30,9 +30,9 @@ const Navbar = () => {
 
         {menu && (
           <div
-            className={`absolute ${
-              menu ? "top-0 right-0" : "top-0 -right-[100%]"
-            }  flex flex-col w-full h-full gap-16   bg-blue-400 duration-300 transition-all ease-in-out`}
+            className={`absolute top-0   transition-right duration-500 ease-in flex flex-col w-full h-full gap-16 bg-gray-300 ${
+              menu ? "right-0" : "-right-[100%]"
+            }  `}
           >
             <div className="flex justify-end w-[93%] mt-5">
               <CgCloseO
