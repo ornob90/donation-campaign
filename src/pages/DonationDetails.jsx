@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import Container from "../components/Shared/Container";
 import { useParams } from "react-router-dom";
 import DonationContext from "../context/DonationContext";
+import swal from "sweetalert";
+import { addDonationsInLS } from "../utilities/localStorage";
 
 const DonationDetails = () => {
   const { id } = useParams();
@@ -13,6 +15,11 @@ const DonationDetails = () => {
     setDonate(donationList.find((donation) => donation.id === Number(id)));
   }, [donationList, id]);
 
+  const handleDonate = () => {
+    addDonationsInLS(id);
+    swal("Thank you", "You have successfully donated", "success");
+  };
+
   return (
     <Container>
       <div className={`relative min-h-[450px] h-[70vh] w-full `}>
@@ -22,7 +29,10 @@ const DonationDetails = () => {
           alt=""
         />
         <div className="w-full h-[20%] bg-[#010101]/[.50] absolute bottom-0 left-0 flex items-center">
-          <button className="text-white py-2 px-4 rounded-lg bg-[#FF444A] ml-4">
+          <button
+            onClick={handleDonate}
+            className="text-white py-2 px-4 rounded-lg bg-[#FF444A] ml-4"
+          >
             Donate ${donate?.price}
           </button>
         </div>

@@ -9,14 +9,14 @@ export const getDonationsFromLS = () => {
 };
 
 export const addDonationsInLS = (id) => {
-  const myDonations = getFavFromLS();
+  const myDonations = getDonationsFromLS();
 
   myDonations.push(id);
   localStorage.setItem("myDonations", JSON.stringify(myDonations));
 };
 
 export const deleteDonationsFromLS = (id) => {
-  const myDonations = getFavFromLS();
+  const myDonations = getDonationsFromLS();
   const newMyDonations = myDonations.filter((phoneId) => phoneId !== id);
   localStorage.setItem("myDonations", JSON.stringify(newMyDonations));
   return newMyDonations;
