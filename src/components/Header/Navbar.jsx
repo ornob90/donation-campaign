@@ -20,7 +20,11 @@ const Navbar = () => {
         <div className="hidden text-lg md:text-xl  w-3/5 lg:flex justify-end gap-8 items-center">
           <NavLink
             className={({ isActive }) =>
-              `${isActive ? "text-[#FF444A]" : "text-black"}`
+              `${
+                isActive
+                  ? "text-[#FF444A] border-b-[2px] border-[#FF444A]"
+                  : "text-black"
+              }`
             }
             to="/"
           >
@@ -28,7 +32,11 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              `${isActive ? "text-[#FF444A]" : "text-black"}`
+              `${
+                isActive
+                  ? "text-[#FF444A] border-b-[2px] border-[#FF444A]"
+                  : "text-black"
+              }`
             }
             to="/Donations"
           >
@@ -36,7 +44,11 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              `${isActive ? "text-[#FF444A]" : "text-black"}`
+              `${
+                isActive
+                  ? "text-[#FF444A] border-b-[2px] border-[#FF444A]"
+                  : "text-black"
+              }`
             }
             to="/statistics"
           >
@@ -65,9 +77,45 @@ const Navbar = () => {
               className="
          flex flex-col lg:hidden z-[10] justify-center items-center gap-8 text-xl"
             >
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/Donations">Donation</NavLink>
-              <NavLink>Statistics</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "text-[#FF444A] border-b-[2px] border-[#FF444A]"
+                      : "text-black"
+                  }`
+                }
+                to="/"
+                onClick={() => setMenu(!menu)}
+              >
+                Home
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "text-[#FF444A] border-b-[2px] border-[#FF444A]"
+                      : "text-black"
+                  }`
+                }
+                to="/Donations"
+                onClick={() => setMenu(!menu)}
+              >
+                Donation
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "text-[#FF444A] border-b-[2px] border-[#FF444A]"
+                      : "text-black"
+                  }`
+                }
+                to="/statistics"
+                onClick={() => setMenu(!menu)}
+              >
+                Statistics
+              </NavLink>
             </div>
           </div>
         )}
