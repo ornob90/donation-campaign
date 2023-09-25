@@ -4,6 +4,7 @@ import RootLayout from "../Layout/RootLayout";
 import Home from "../pages/Home";
 import DonationDetails from "../pages/DonationDetails";
 import MyDonations from "../pages/MyDonations";
+import Statistics from "../pages/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "Donations",
         element: <MyDonations />,
+      },
+      {
+        path: "Statistics",
+        element: <Statistics />,
       },
     ],
   },
