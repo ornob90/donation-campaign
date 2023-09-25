@@ -18,9 +18,30 @@ const Navbar = () => {
           />
         </div>
         <div className="hidden text-lg md:text-xl  w-3/5 lg:flex justify-end gap-8 items-center">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/Donations">Donation</NavLink>
-          <NavLink>Statistics</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `${isActive ? "text-[#FF444A]" : "text-black"}`
+            }
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `${isActive ? "text-[#FF444A]" : "text-black"}`
+            }
+            to="/Donations"
+          >
+            Donation
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `${isActive ? "text-[#FF444A]" : "text-black"}`
+            }
+            to="/statistics"
+          >
+            Statistics
+          </NavLink>
         </div>
 
         <GiHamburgerMenu

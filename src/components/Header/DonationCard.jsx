@@ -5,27 +5,7 @@ import CategoryBtn from "../Shared/CategoryBtn";
 const DonationCard = ({ donation }) => {
   const navigate = useNavigate();
 
-  const { id, image, title, category, cardBg, catgBg, textColor } = donation;
-
-  const handleColor = (colorCode, type) => {
-    // Food
-    if (colorCode === "#F87147" && type === "cardBg") {
-      return "bg-[#0052ff26]/[.15]";
-    }
-    if (colorCode === "#F87147" && type === "cardBg") {
-      return "bg-[#0052ff26]/[.15]";
-    }
-
-    // if (type === "card") {
-    //   return `bg-[${colorCode}]`;
-    // }
-    // if (type === "btn") {
-    //   return `${colorCode}`;
-    // }
-    // if (type === "title") {
-    //   return `text-[${cardBg}]`;
-    // }
-  };
+  const { id, image, title, category } = donation;
 
   return (
     <div
@@ -40,7 +20,7 @@ const DonationCard = ({ donation }) => {
           : "bg-education/[.15]"
       }  rounded-b-lg active:scale-[1.1] duration-[.3s] transition-all ease-in-out hover:scale-[1.05]`}
     >
-      <img src={image} />
+      <img src={image} className="h-[200px] w-full rounded-t-lg" />
       <div className="pl-2 py-2">
         <CategoryBtn category={category}>{category}</CategoryBtn>
         <h3
