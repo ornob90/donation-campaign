@@ -1,4 +1,7 @@
+import { useContext, useEffect, useState } from "react";
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import { getDonationsFromLS } from "../utilities/localStorage";
+import DonationContext from "../context/DonationContext";
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -22,15 +25,27 @@ const renderCustomizedLabel = ({
       textAnchor={x > cx ? "start" : "end"}
       dominantBaseline="central"
     >
-      {`${(percent * 100).toFixed(0)}%`}
+      {`${(percent * 100).toFixed(2)}%`}
     </text>
   );
 };
 
 const Statistics = () => {
+  const [myDonationPrct, setMyDonationPrct] = useState(0);
+  const [totalDonationPrct, setTotalDonationPrct] = useState(100);
+  const totalDonation = useContext(DonationContext).length;
+
+  useEffect(() => {
+    const myDonationCount = getDonationsFromLS().length;
+
+    const myDonationPrct = (myDonationCount / totalDonation) * 100;
+    console.log(myDonationPrct);
+    setMyDonationPrct(myDonationPrct);
+  }, []);
+
   const data = [
-    { name: "Total", value: 12 },
-    { name: "Mine", value: 4 },
+    { name: "Total", value: myDonationPrct },
+    { name: "Mine", value: 100 - myDonationPrct },
   ];
 
   const COLORS = ["#00C49F", "#FF444A"];

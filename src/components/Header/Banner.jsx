@@ -8,7 +8,7 @@ const Banner = () => {
       </h1>
       <div className=" flex items-center justify-center w-full">
         <input
-          className="w-[50%] md:w-[30%] lg:w-[20%] border-[1px] border-gray-200 pl-2 py-2 rounded-l-lg"
+          className="active:border-white w-[50%] md:w-[30%] lg:w-[20%] border-[1px] border-gray-200 pl-2 py-2 rounded-l-lg"
           type="text"
           placeholder="Search Here"
         />
