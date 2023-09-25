@@ -31,7 +31,15 @@ const DonationDetails = () => {
         <div className="w-full h-[20%] bg-[#010101]/[.50] absolute bottom-0 left-0 flex items-center">
           <button
             onClick={handleDonate}
-            className="text-white py-2 px-4 rounded-lg bg-[#FF444A] ml-4"
+            className={`text-white py-2 px-4 rounded-lg bg-[#FF444A] ml-4 ${
+              donate?.category === "Clothing"
+                ? "bg-clothing"
+                : donate?.category === "Health"
+                ? "bg-health"
+                : donate?.category === "Food"
+                ? "bg-food"
+                : "bg-education"
+            }`}
           >
             Donate ${donate?.price}
           </button>
