@@ -1,7 +1,9 @@
 import React from "react";
 import CategoryBtn from "../Shared/CategoryBtn";
+import { useNavigate } from "react-router-dom";
 
 const MyDonationCard = ({ donation }) => {
+  const navigate = useNavigate();
   const { id, image, title, category, price } = donation;
   return (
     <div

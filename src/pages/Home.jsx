@@ -1,12 +1,31 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Banner from "../components/Header/Banner";
 import Donations from "../components/Header/Donations";
+import DonationContext from "../context/DonationContext";
 
 const Home = () => {
+  const [query, setQuery] = useState("");
+  const donationData = useContext(DonationContext);
+  const [campaignData, setCampaignData] = useState(donationData);
+
+  const handleQuery = (value) => {
+    setQuery(value);
+  };
+
+  const handleSubmit = () => {
+    if (!query) {
+      return;
+    }
+
+    setCampaignData(
+      donationData.filter((donation) => donation.category.includes(query))
+    );
+  };
+
   return (
     <div className="">
-      <Banner />
-      <Donations />
+      <Banner handleQuery={handleQuery} handleSubmit={handleSubmit} />
+      <Donations campaignData={campaignData} />
     </div>
   );
 };

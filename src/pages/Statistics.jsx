@@ -32,14 +32,12 @@ const renderCustomizedLabel = ({
 
 const Statistics = () => {
   const [myDonationPrct, setMyDonationPrct] = useState(0);
-  const [totalDonationPrct, setTotalDonationPrct] = useState(100);
   const totalDonation = useContext(DonationContext).length;
 
   useEffect(() => {
     const myDonationCount = getDonationsFromLS().length;
 
     const myDonationPrct = (myDonationCount / totalDonation) * 100;
-    console.log(myDonationPrct);
     setMyDonationPrct(myDonationPrct);
   }, []);
 
