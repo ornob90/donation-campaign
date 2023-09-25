@@ -3,7 +3,7 @@ import Container from "../components/Shared/Container";
 
 import { getDonationsFromLS } from "../utilities/localStorage";
 import DonationContext from "../context/DonationContext";
-import { useNavigate } from "react-router-dom";
+
 import MyDonationCard from "../components/MyDonation/MyDonationCard";
 
 const MyDonations = () => {
@@ -27,7 +27,7 @@ const MyDonations = () => {
 
   return (
     <Container>
-      <div className="grid gap-4 mt-12 grid-cols-1 lg:grid-cols-2">
+      <div className="mb-10 grid gap-4 mt-12 grid-cols-1 lg:grid-cols-2">
         {seeMore
           ? donations
               ?.slice(0, 4)
@@ -40,12 +40,12 @@ const MyDonations = () => {
       </div>
 
       <div className="w-full flex justify-center items-center">
-        {donations?.length > 4 && (
+        {donations?.length > 4 && seeMore && (
           <button
             onClick={() => setSeeMore(!seeMore)}
             className="mt-10 bg-[#009444] text-white py-2 px-4 rounded-lg"
           >
-            {seeMore ? "See All" : "See Less"}
+            See All
           </button>
         )}
       </div>

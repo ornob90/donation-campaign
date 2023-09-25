@@ -14,6 +14,7 @@ const Home = () => {
 
   const handleSubmit = () => {
     if (!query) {
+      setCampaignData(donationData);
       return;
     }
 
