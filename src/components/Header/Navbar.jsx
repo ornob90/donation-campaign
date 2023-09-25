@@ -30,7 +30,7 @@ const Navbar = () => {
 
         {menu && (
           <div
-            className={`absolute top-0   transition-right duration-500 ease-in flex flex-col w-full h-full gap-16 bg-gray-300 ${
+            className={`absolute top-0 z-[10] transition-right duration-500 ease-in flex flex-col w-full h-full gap-16 bg-gray-200 ${
               menu ? "right-0" : "-right-[100%]"
             }  `}
           >
