@@ -2,18 +2,59 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import CategoryBtn from "../Shared/CategoryBtn";
 
-const DonationCard = () => {
+const DonationCard = ({ donation }) => {
   const navigate = useNavigate();
+
+  const { id, image, title, category, cardBg, catgBg, textColor } = donation;
+
+  const handleColor = (colorCode, type) => {
+    // Food
+    if (colorCode === "#F87147" && type === "cardBg") {
+      return "bg-[#0052ff26]/[.15]";
+    }
+    if (colorCode === "#F87147" && type === "cardBg") {
+      return "bg-[#0052ff26]/[.15]";
+    }
+
+    // if (type === "card") {
+    //   return `bg-[${colorCode}]`;
+    // }
+    // if (type === "btn") {
+    //   return `${colorCode}`;
+    // }
+    // if (type === "title") {
+    //   return `text-[${cardBg}]`;
+    // }
+  };
+
   return (
     <div
-      onClick={() => navigate("Health/1")}
-      className="bg-[#0052FF]/[.15] rounded-b-lg active:scale-[1.1] duration-[.3s] transition-all ease-in-out hover:scale-[1.05]"
+      onClick={() => navigate(`${category}/${id}`)}
+      className={`${
+        category === "Clothing"
+          ? "bg-clothing/[.15]"
+          : category === "Health"
+          ? "bg-health/[.15]"
+          : category === "Food"
+          ? "bg-food/[.15]"
+          : "bg-education/[.15]"
+      }  rounded-b-lg active:scale-[1.1] duration-[.3s] transition-all ease-in-out hover:scale-[1.05]`}
     >
-      <img src="/assets/Health.png" alt="Health Image" />
+      <img src={image} />
       <div className="pl-2 py-2">
-        <CategoryBtn color="#0052FF">Health</CategoryBtn>
-        <h3 className="text-[#0052FF] font-[600] text-lg ">
-          Clean water for children
+        <CategoryBtn category={category}>{category}</CategoryBtn>
+        <h3
+          className={`font-[600] text-lg ${
+            category === "Clothing"
+              ? "text-clothing"
+              : category === "Health"
+              ? "text-health"
+              : category === "Food"
+              ? "text-food"
+              : "text-education"
+          }`}
+        >
+          {title}
         </h3>
       </div>
     </div>

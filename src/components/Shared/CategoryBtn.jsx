@@ -1,10 +1,19 @@
 import React from "react";
 
-const CategoryBtn = ({ children, color }) => {
+const CategoryBtn = ({ children, category }) => {
   return (
     <button
       type="button"
-      className={`bg-[${color}]/[.20] text-[${color}] font-medium py-1 px-2 text-sm rounded-md`}
+      className={`font-medium py-1 px-2 text-sm rounded-md
+      ${
+        category === "Clothing"
+          ? "bg-clothing/[.20] text-clothing"
+          : category === "Health"
+          ? "bg-health/[.20] text-health"
+          : category === "Food"
+          ? "bg-food/[.20] text-food"
+          : "bg-education/[.20] text-education"
+      }`}
     >
       {children}
     </button>
