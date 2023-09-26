@@ -1,19 +1,26 @@
 import React, { useContext, useEffect, useState } from "react";
 import Container from "../components/Shared/Container";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import DonationContext from "../context/DonationContext";
 import swal from "sweetalert";
 import { addDonationsInLS } from "../utilities/localStorage";
 
 const DonationDetails = () => {
-  const { id } = useParams();
+  const { type, id } = useParams();
 
   const [donate, setDonate] = useState({});
   const donationList = useContext(DonationContext);
+  const navigate = useNavigate();
+  const categories = ["Health", "Education", "Food", "Clothing"];
 
   useEffect(() => {
     setDonate(donationList.find((donation) => donation.id === Number(id)));
   }, [donationList, id]);
+
+  useEffect(() => {
+    console.log(type);
+    if (!categories.includes(type)) navigate("/error");
+  }, [type]);
 
   const handleDonate = () => {
     addDonationsInLS(id);
