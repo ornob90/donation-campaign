@@ -19,7 +19,9 @@ const Home = () => {
     }
 
     setCampaignData(
-      donationData.filter((donation) => donation.category.includes(query))
+      donationData.filter((donation) =>
+        donation.category.toLowerCase().includes(query.toLowerCase())
+      )
     );
   };
 
