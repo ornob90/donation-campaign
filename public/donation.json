@@ -6,9 +6,10 @@
     "category": "Health",
     "description": "The 'Wellness and Future Health Program' is a transformative initiative aimed at revolutionizing healthcare and ensuring a healthier future for all. This program is designed to not only support existing medical facilities but also to provide comprehensive healthcare to those in need. With a mission to make quality healthcare accessible to every individual, this program focuses on various aspects of health and wellness. It embraces the latest advancements in medical technology, promotes preventive healthcare measures, and fosters a culture of well-being within communities. One of the core pillars of this program is to support medical facilities. This includes upgrading and equipping hospitals, clinics, and healthcare centers with state-of-the-art equipment and resources. By doing so, we aim to enhance the capacity of healthcare institutions to provide timely and effective care to patients.Additionally, the program emphasizes reaching out to underserved and marginalized populations. Through mobile clinics and outreach programs, we aim to bring healthcare services directly to those who may have limited access. This includes medical check-ups, vaccinations, and health education to empower individuals and communities to take charge of their health. Prevention is a key aspect of the 'Wellness and Future Health Program.' We invest in initiatives that educate people about healthy lifestyle choices, nutrition, and exercise. By promoting a proactive approach to health, we aim to reduce the burden of preventable diseases. Our vision is to create a future where healthcare is a fundamental right, not a privilege. By contributing to this program, you are helping build a healthier world for generations to come.",
     "price": 250,
-    "category_bg": "#0052FF",
-    "card_bg": "#0052FF",
-    "text_bg": "#0052FF"
+    "category_bg": "bg-health/[.20]",
+    "card_bg": "bg-health/[.15]",
+    "text_bg": "text-health",
+    "btn_bg": "bg-health"
   },
 
   {
@@ -18,9 +19,10 @@
     "category": "Food",
     "description": "The 'Fight Hunger Together' initiative is a collaborative effort to combat hunger and ensure food security for all. It brings together individuals, communities, and organizations to make a significant impact on addressing the pressing issue of hunger. Hunger is a critical problem affecting millions of people around the world, and this program aims to make a difference by supporting food banks and related initiatives. By contributing to this cause, you are helping to provide nourishment and sustenance to those in need. Food banks play a crucial role in distributing food to underserved populations and those facing food insecurity. Your support allows these food banks to acquire and distribute essential food items, ensuring that families and individuals have access to nutritious meals.In addition to immediate relief, the 'Fight Hunger Together' program focuses on sustainable solutions to combat hunger. This includes supporting initiatives that promote agriculture, food education, and community gardens, empowering communities to grow their own food and become self-reliant.By participating in this initiative, you are directly contributing to alleviating hunger and making a positive impact on the lives of individuals and families who struggle to put food on their tables.",
     "price": 250,
-    "category_bg": "#F87147",
-    "card_bg": "#F87147",
-    "text_bg": "#F87147"
+    "category_bg": "bg-food/[.20]",
+    "card_bg": "bg-food/[.15]",
+    "text_bg": "text-food",
+    "btn_bg": "bg-food"
   },
 
   {
@@ -30,9 +32,10 @@
     "category": "Health",
     "description": "The 'Wellness and Future Health Program' is a comprehensive healthcare initiative committed to enhancing the well-being of individuals and communities. Our primary goal is to support health clinics and make quality healthcare accessible to everyone, regardless of their socio-economic background.In today's world, access to healthcare is a fundamental right, and this program aims to ensure that no one is left behind. By supporting health clinics, we contribute to the improvement and expansion of medical facilities. This includes providing essential medical equipment, training healthcare professionals, and enhancing the overall infrastructure of clinics.Furthermore, our program is dedicated to community health and wellness. We actively engage in health education and awareness campaigns, empowering individuals to take charge of their health through preventive measures. We advocate for healthy lifestyles, regular check-ups, and vaccination programs to combat preventable diseases.Your contribution to the 'Wellness and Future Health Program' directly impacts the lives of countless individuals by bridging the healthcare gap and promoting a healthier future for all. Together, we can create a world where healthcare is not a privilege but a right.",
     "price": 220,
-    "category_bg": "#0052FF",
-    "card_bg": "#0052FF",
-    "text_bg": "#0052FF"
+    "category_bg": "bg-health/[.20]",
+    "card_bg": "bg-health/[.15]",
+    "text_bg": "text-health",
+    "btn_bg": "bg-health"
   },
 
   {
@@ -42,9 +45,10 @@
     "category": "Health",
     "description": "The 'Wellness and Future Health Program' is a visionary initiative dedicated to promoting wellness and ensuring a healthier future for all. In today's fast-paced world, health has become paramount, and this program is designed to address the evolving healthcare needs of individuals and communities.Our approach encompasses a broad spectrum of activities aimed at fostering a culture of well-being. We believe that true wellness extends beyond just the absence of disease; it includes physical, mental, and emotional health. By participating in this program, you are contributing to a movement that emphasizes holistic health.One of the key components of our program is health promotion. We actively engage in initiatives that raise awareness about healthy lifestyles, nutrition, and exercise. We encourage individuals to adopt preventive measures and prioritize their health through regular check-ups.Additionally, the program advocates for healthcare access and affordability. We work towards making healthcare services more accessible, ensuring that financial constraints do not stand in the way of receiving essential medical care.Your support for the 'Wellness and Future Health Program' is an investment in a healthier and brighter future. Join us in our mission to create a world where every individual has the opportunity to live a life of well-being and vitality.",
     "price": "290",
-    "category_bg": "#0052FF",
-    "card_bg": "#0052FF",
-    "text_bg": "#0052FF"
+    "category_bg": "bg-health/[.20]",
+    "card_bg": "bg-health/[.15]",
+    "text_bg": "text-health",
+    "btn_bg": "bg-health"
   },
   {
     "id": 5,
@@ -53,9 +57,10 @@
     "category": "Clothing",
     "description": "The 'Warmth for the Needy' initiative is dedicated to providing warmth and comfort to those in need, especially during cold seasons. Many individuals and families face the harsh challenges of cold weather without proper clothing, and this program aims to make a difference by ensuring they have access to warm clothing items.Your contribution to this initiative helps us collect and distribute clothing items to disadvantaged individuals and communities. We believe that everyone deserves to stay warm and protected from the elements. By donating, you are directly contributing to keeping someone warm and safe during challenging times.Together, we can make a significant impact on the lives of those less fortunate, providing not only physical warmth but also a sense of care and support. Join us in spreading warmth and compassion to those who need it most.",
     "price": "240",
-    "category_bg": "#79C23F",
-    "card_bg": "#79C23F",
-    "text_bg": "#79C23F"
+    "category_bg": "bg-clothing/[.20]",
+    "card_bg": "bg-clothing/[.15]",
+    "text_bg": "text-clothing",
+    "btn_bg": "bg-clothing"
   },
   {
     "id": 6,
@@ -65,9 +70,10 @@
     "description": "Help us make a difference in the lives of disadvantaged individuals by donating clothing items through the 'Warmth for the Needy' program. We understand that many people struggle to access warm clothing, and your support can provide them with the comfort and protection they deserve, especially during cold seasons.Your contribution enables us to collect and distribute warm clothing to those in need. By participating in this initiative, you are directly impacting the well-being of individuals and families, offering them a lifeline during challenging times.Join us in our mission to spread warmth, care, and compassion. Together, we can make a positive change in the lives of those less fortunate.",
 
     "price": "260",
-    "category_bg": "#79C23F",
-    "card_bg": "#79C23F",
-    "text_bg": "#79C23F"
+    "category_bg": "bg-clothing/[.20]",
+    "card_bg": "bg-clothing/[.15]",
+    "text_bg": "text-clothing",
+    "btn_bg": "bg-clothing"
   },
   {
     "id": 7,
@@ -77,9 +83,10 @@
     "description": "Support clothing banks and ensure that individuals in need have access to warm clothing. The 'Warmth for the Needy' program is dedicated to making a difference in the lives of those facing cold weather without adequate clothing.Your contribution helps us gather clothing items and distribute them to disadvantaged individuals and communities. By participating, you are directly contributing to keeping people warm, safe, and comfortable during challenging times.Join us in our mission to provide warmth and care to those who need it most. Together, we can make a significant impact on the well-being of our communities.",
 
     "price": "210",
-    "category_bg": "#79C23F",
-    "card_bg": "#79C23F",
-    "text_bg": "#79C23F"
+    "category_bg": "bg-clothing/[.20]",
+    "card_bg": "bg-clothing/[.15]",
+    "text_bg": "text-clothing",
+    "btn_bg": "bg-clothing"
   },
   {
     "id": 8,
@@ -89,9 +96,10 @@
     "description": "The 'Empowering Future Generations' initiative is a transformative educational program dedicated to shaping a brighter future for the next generation. Education is a powerful tool for empowerment, and this program focuses on providing educational opportunities to underprivileged children and youth.By supporting this initiative, you are contributing to educational initiatives that equip young minds with knowledge, skills, and opportunities. Your donation helps us provide access to quality education, learning resources, and mentorship programs that empower children to realize their full potential.Together, we can break the cycle of poverty and create a world where every child has the chance to dream big and achieve their goals. Join us in empowering future generations.",
 
     "price": "270",
-    "category_bg": "#FF444A",
-    "card_bg": "#FF444A",
-    "text_bg": "#FF444A"
+    "category_bg": "bg-education/[.20]",
+    "card_bg": "bg-education/[.15]",
+    "text_bg": "text-education",
+    "btn_bg": "bg-education"
   },
   {
     "id": 9,
@@ -100,9 +108,10 @@
     "category": "Food",
     "description": "Join the 'Fight Hunger Together' initiative and make a significant impact in the battle against hunger. Hunger is a persistent global issue, and your support can bring relief to vulnerable communities facing food insecurity.Your contribution enables us to collect and distribute essential food items to individuals and families in need. By participating, you are directly contributing to alleviating hunger and ensuring that no one goes to bed hungry.Together, we can create a world where everyone has access to nutritious meals and no one has to endure the pain of an empty stomach. Join us in the fight against hunger.",
     "price": "230",
-    "category_bg": "#F87147",
-    "card_bg": "#F87147",
-    "text_bg": "#F87147"
+    "category_bg": "bg-food/[.20]",
+    "card_bg": "bg-food/[.15]",
+    "text_bg": "text-food",
+    "btn_bg": "bg-food"
   },
   {
     "id": 10,
@@ -111,9 +120,10 @@
     "category": "Food",
     "description": "Support food banks and help ensure food security for all through the 'Fight Hunger Together' program. Hunger is a pressing issue affecting communities worldwide, and your support can make a significant difference.Your contribution enables us to collaborate with food banks and related initiatives to collect and distribute food to individuals and families facing food insecurity. By participating, you are directly contributing to providing nourishment and hope to those in need.Together, we can create a world where hunger is a thing of the past. Join us in our mission to ensure that no one goes to bed hungry.",
     "price": "250",
-    "category_bg": "#F87147",
-    "card_bg": "#F87147",
-    "text_bg": "#F87147"
+    "category_bg": "bg-food/[.20]",
+    "card_bg": "bg-food/[.15]",
+    "text_bg": "text-food",
+    "btn_bg": "bg-food"
   },
   {
     "id": 11,
@@ -123,9 +133,10 @@
     "description": "Support the 'Empowering Future Generations' initiative and play a vital role in empowering the next generation through educational initiatives. Education is a powerful tool for breaking the cycle of poverty and creating brighter futures.By contributing to this program, you are helping us provide access to quality education, mentorship programs, and learning resources for underprivileged children and youth. Your support enables us to equip young minds with the knowledge and skills they need to succeed.Join us in our mission to empower future generations, giving them the opportunities they deserve to achieve their dreams and make a positive impact on the world.",
 
     "price": "270",
-    "category_bg": "#FF444A",
-    "card_bg": "#FF444A",
-    "text_bg": "#FF444A"
+    "category_bg": "bg-education/[.20]",
+    "card_bg": "bg-education/[.15]",
+    "text_bg": "text-education",
+    "btn_bg": "bg-education"
   },
   {
     "id": 12,
@@ -135,8 +146,9 @@
     "description": "Promote literacy and access to quality education for all by supporting the 'Empowering Future Generations' initiative. Education is a fundamental right, and your contribution can make a significant difference in the lives of children and youth.Your support enables us to promote literacy, provide access to educational resources, and offer mentorship programs. By participating in this initiative, you are directly contributing to creating a world where every child has the chance to receive a quality education.Join us in our mission to empower future generations, break barriers to education, and pave the way for a brighter and more inclusive future.",
 
     "price": "290",
-    "category_bg": "#FF444A",
-    "card_bg": "#FF444A",
-    "text_bg": "#FF444A"
+    "category_bg": "bg-education/[.20]",
+    "card_bg": "bg-education/[.15]",
+    "text_bg": "text-education",
+    "btn_bg": "bg-education"
   }
 ]
