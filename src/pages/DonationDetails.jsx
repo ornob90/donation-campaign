@@ -22,9 +22,9 @@ const DonationDetails = () => {
 
   return (
     <Container>
-      <div className={`relative min-h-[450px] h-[70vh] w-full `}>
+      <div className={`relative min-h-[450px] h-[80vh]  w-full `}>
         <img
-          className="w-full h-full  object-bottom"
+          className="object-bottom w-full h-full"
           src={donate?.image}
           alt=""
         />
@@ -46,10 +46,10 @@ const DonationDetails = () => {
         </div>
       </div>
       <div className="mt-5">
-        <h1 className="font-bold text-black text-2xl md:text-3xl lg:text-4xl mb-3">
+        <h1 className="mb-3 text-2xl font-bold text-black md:text-3xl lg:text-4xl">
           {donate?.title}
         </h1>
-        <p className="text-gray-700 text-sm md:text-base">
+        <p className="text-sm text-gray-700 md:text-base">
           {donate?.description}
         </p>
       </div>
